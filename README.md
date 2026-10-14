@@ -1,2 +1,2 @@
-# Polarised-Raman-spectroscopy-in-the-identification-of-crystallographic-symmetry
-Codes developed for UA end of course project.
+# polarised-raman-spectroscopy-in-the-identification-of-crystallographic-symmetry
+This repository contains the scripts developed as part of the final project of my BSc in physics at the University of Aveiro.
