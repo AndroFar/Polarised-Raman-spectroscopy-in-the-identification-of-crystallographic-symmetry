@@ -187,7 +187,6 @@ For silicon, set `a = 0` and `b = 0` and use any non-zero `d`; since the result 
 
 - The angular offset $\theta_0$ between sample axes and the stage zero is a manually tuned constant (`OFFSET_DEG = 51.0` in each polar script) rather than a fitted parameter with uncertainty.
 - Normalising to the empirical maximum introduces a small bias from noise.
-- Area uncertainties do not currently include covariance cross-terms between fit parameters.
 - The polar scripts skip rows flagged `bad_fit` in `fit_summary.csv`, but `raman_lorentzian_fit.py` does not currently write that column, so no fits are excluded automatically.
 - The intensity calculators return relative intensities in arbitrary units set by the tensor amplitudes. Optical effects such as Fresnel transmission or polarisation mixing from high-aperture objectives are not modelled.
 
